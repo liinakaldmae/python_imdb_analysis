@@ -1,2 +1,2 @@
-# python_imdb_analysis
-IMDb Dataset analysis using Python
+# When did The Simpsons stop being (that) good?
+The Simpsons IMDb dataset analysis using Python

@@ -21,7 +21,7 @@ Scatterplot of season number and averate rating showed a noticeable negative cor
 
 Scatterplot using the number of votes and average rating showed that the two are positively correlated. Adding season number as color to the scatterplot revealed that the episodes could potentially be grouped into more than two groups based on these variables.
 
-<img width="600" height="400" alt="plot2_simpsons" src="https://github.com/user-attachments/assets/8f189465-e611-4b75-9d19-d80496667f82" />
+<img width="600" height="400" alt="plot2-simpsons" src="https://github.com/user-attachments/assets/f64cf4b2-1fb4-4f20-b1f7-0643bf25700d" />
 
 Running a k-means cluster analysis using number of votes, average rating and season number revealed that the episodes could be devided into three groups of similar sizes (298, 290 and 222 episodes). Cluster 2 seems to be the one with earliest seasons with highest ratings and highest number of votes. Cluster 1 is the one with the latest seasons, lowest ratings and lowest number of votes. Cluster 0 includes the seasons inbetween.
 

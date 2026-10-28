@@ -36,7 +36,7 @@ Scatterplot using the number of votes and average rating showed that the two are
   <img width="600" height="400" alt="plot2-simpsons" src="https://github.com/user-attachments/assets/f64cf4b2-1fb4-4f20-b1f7-0643bf25700d" />
 </p>
 
-Running a k-means cluster analysis using number of votes, average rating and season number revealed that the episodes could be divided into three groups of similar sizes (298, 290 and 222 episodes). Cluster 2 seems to be the one with earliest seasons with highest ratings and highest number of votes. Cluster 1 is the one with the latest seasons, lowest ratings and lowest number of votes. Cluster 0 includes the seasons in between.
+Running a k-means cluster analysis using number of votes, average rating and season number revealed that the episodes could be divided into three groups of similar sizes (298, 290 and 222 episodes). 1 cluster seems to be the one with earliest seasons (avg 5.9), highest ratings (avg 8.15) and highest number of votes (avg (4253). Another cluster is the one with the latest seasons (avg 30.4), lowest ratings (avg 6.46) and lowest number of votes (avg 1112). The third cluster includes the seasons in between (avg season 17.3, avg rating 6.96 and avg number of votes 1939).
 
 | cluster | numVotes | averageRating | seasonNumber | count |
 |:-------:|---------:|--------------:|-------------:|------:|
@@ -47,8 +47,10 @@ Running a k-means cluster analysis using number of votes, average rating and sea
 Plotting the clusters visually reveals that the seasons of The Simpsons could be divided in the following way:
 
 1. The most appreciated episodes - seasons 1-10
-2. The inbetween episodes - seasons 11-22
+2. The inbetween episodes - seasons 11-22 
 3. The least appreciated episodes - seasons 23-38.
+
+What seems to differentiate between the middle and latest seasons is the number of people watching them - although the average rating in both clusters is quite similar (6.46 and 6.96), the average number of votes differs more (1112 vs 1939). 
 
 <p align="center">
   <img width="600" height="400" alt="python_screenshot" src="https://github.com/user-attachments/assets/c877f1bf-3d9b-4ebd-b0a5-f14941891782" />

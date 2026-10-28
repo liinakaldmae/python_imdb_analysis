@@ -16,7 +16,7 @@ After joining and cleaning the data I was left with 810 episodes of The Simpsons
 
 Scatterplot of season number and averate rating showed a noticeable negative correlation between the two variables - higher season number means lower ratings.
 
-<img width="600" height="400" alt="plot1_simpsons" src="https://github.com/user-attachments/assets/1c1ccdac-75ed-44c0-8ec0-7e6c518e723c" />
+<img width="600" height="400" alt="plot1-simpsons" src="https://github.com/user-attachments/assets/b774c06d-61a2-4d97-8460-3ea4ee29b449" />
 
 
 Scatterplot using the number of votes and average rating showed that the two are positively correlated. Adding season number as color to the scatterplot revealed that the episodes could potentially be grouped into more than two groups based on these variables.
